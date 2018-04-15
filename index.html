@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html ng-app ="myfirstapp" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <script src="angular.min.js"></script>
@@ -7,7 +7,10 @@
     <title>Hello world</title>
   </head>
   <body>
-    <h2>Hello Amjad students</h2>
-    <h3> second try </h3>
+    <h2>Hello Amjad angular app</h2>
+    <div ng-controller="myfirstcontroller">
+       <input type="text" ng-model="name">
+       you've inserted : {{name}}
+      <div>
   </body>
 </html>
